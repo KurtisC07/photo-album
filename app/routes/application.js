@@ -404,11 +404,11 @@ export default Ember.Route.extend({
     let photos = [{
       id: '1',
       name: "Photo 1",
-      url: "https://scontent-sjc2-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-0/p206x206/12800111_10153460052858994_6611823260824136562_n.jpg?oh=2c40917e5043bd0ba2c97d7d56855c04&oe=578CA1E5"
+      url: "https://scontent-sjc2-1.xx.fbcdn.net/hphotos-xtp1/t31.0-8/12473556_10153460052858994_6611823260824136562_o.jpg"
     }, {
       id: '2',
       name: "Photo 2",
-      url: "https://scontent-sjc2-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-0/q81/p206x206/12801171_10153441764583994_2356050063823670830_n.jpg?oh=d032ee72cc580d3b9cc06a2f4c2365fc&oe=5790A89F"
+      url: "https://scontent-sjc2-1.xx.fbcdn.net/hphotos-xpt1/t31.0-8/12829098_10153441764583994_2356050063823670830_o.jpg"
     }];
     return photos;
   }
