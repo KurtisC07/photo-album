@@ -1,16 +1,13 @@
-{{#illiquid-model model as |day|}}
-  {{#memory-scroll key=(concat "day" day.id) class="memory-scroll" }}
-
-    {{the-logo}}
-
-    <section class="day">
-        <div class="row" id={{day.id}}>
+{{#illiquid-model model as |photo|}}
+  {{#memory-scroll key=(concat "photo" photo.id) class="memory-scroll" }}
+    <section class="photo">
+        <div class="row" id={{photo.id}}>
           <div class="small-12 columns">
-            <h2 class="centered">{{day.name}}</h2>
+            <img src="{{photo.url}}" width="100%"/>
           </div>
         </div>
         <ol class="row" onclick={{action "chooseTalk"}} >
-          {{#each day.talks as |talk|}}
+          {{#each photo.talks as |talk|}}
             <li class='small-12 columns accordion' data-talk-id={{talk.id}}>
               <div class="row small-collapse medium-uncollapse">
                   <div class="event-time small-12 medium-4 columns">

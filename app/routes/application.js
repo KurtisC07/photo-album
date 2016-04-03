@@ -401,20 +401,15 @@ export default Ember.Route.extend({
         "id": "closing-keynote:-reversing-the-river"
       }
     ];
-    let grouped = [{
+    let photos = [{
       id: '1',
-      name: "Day 1: March 29",
-      talks: []
+      name: "Photo 1",
+      url: "https://scontent-sjc2-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-0/p206x206/12800111_10153460052858994_6611823260824136562_n.jpg?oh=2c40917e5043bd0ba2c97d7d56855c04&oe=578CA1E5"
     }, {
       id: '2',
-      name: "Day 2: March 30",
-      talks: []
+      name: "Photo 2",
+      url: "https://scontent-sjc2-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-0/q81/p206x206/12801171_10153441764583994_2356050063823670830_n.jpg?oh=d032ee72cc580d3b9cc06a2f4c2365fc&oe=5790A89F"
     }];
-    for (var i = 0, l = json.length; i < l; i++) {
-      let talk = json[i];
-      talk.id = talk.title.split('\n')[0].dasherize().toLowerCase();
-      grouped.findBy('name', talk.day).talks.push(talk);
-    }
-    return grouped;
+    return photos;
   }
 });
