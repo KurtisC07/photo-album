@@ -1911,7 +1911,7 @@ all and (min-device-pixel-ratio: 1.5) {
     width: 9.1875em;
     height: 5.5625em;
     display: block;
-    background-image: url("../images/emberconf-logo-263158c24d38ab43338a4cb93eecba94.png");
+    background-image: url("../images/emberconf-logo.png");
     background-repeat: no-repeat;
     position: absolute;
     top: 1.25em;
@@ -1925,7 +1925,7 @@ all and (-o-min-device-pixel-ratio: 3 / 2),
 all and (min--moz-device-pixel-ratio: 1.5),
 all and (min-device-pixel-ratio: 1.5) {
     .save-the-date header .logo {
-        background-image: url("../images/emberconf-logo@2x-afb14dbdc667a8c6ba3d664f6061f32c.png");
+        background-image: url("../images/emberconf-logo@2x.png");
         background-size: 100% auto
     }
 }
@@ -3734,7 +3734,7 @@ header .logo {
     width: 8.875em;
     height: 5.4375em;
     display: block;
-    background-image: url("../images/emberconf-logo-263158c24d38ab43338a4cb93eecba94.png");
+    background-image: url("../images/emberconf-logo.png");
     background-size: 100%;
     background-repeat: no-repeat
 }
@@ -3743,7 +3743,7 @@ all and (-o-min-device-pixel-ratio: 3 / 2),
 all and (min--moz-device-pixel-ratio: 1.5),
 all and (min-device-pixel-ratio: 1.5) {
     header .logo {
-        background-image: url("../images/emberconf-logo@2x-afb14dbdc667a8c6ba3d664f6061f32c.png");
+        background-image: url("../images/emberconf-logo@2x.png");
         background-size: 100% auto
     }
 }
@@ -3761,7 +3761,7 @@ header .logo::after {
     position: absolute;
     top: -.6em;
     left: .55em;
-    background-image: url("../images/tomster-89559e1ddd37d758dcba135987434342.png");
+    background-image: url("../images/tomster.png");
     width: 2.5em;
     height: 2.5em;
     background-repeat: no-repeat;
@@ -3776,7 +3776,7 @@ all and (-o-min-device-pixel-ratio: 3 / 2),
 all and (min--moz-device-pixel-ratio: 1.5),
 all and (min-device-pixel-ratio: 1.5) {
     header .logo::after {
-        background-image: url("../images/tomster@2x-fcdfa56168ed94dc7ffc708e7eb818aa.png");
+        background-image: url("../images/tomster@2x.png");
         background-size: 100% auto
     }
 }
