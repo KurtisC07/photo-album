@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'ember-appcache-demo',
+    modulePrefix: 'photo-album',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
@@ -42,7 +42,7 @@ module.exports = function(environment) {
   if (environment === 'production') {
     // for deployment to Github Pages
     ENV.locationType = 'hash';
-    ENV.baseURL = '/ember-appcache-demo/';
+    ENV.baseURL = '/photo-album/';
   }
 
   return ENV;
